@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 430bec1002367448ba326a78356d524f, type: 3}
+  m_Name: TEDefaultTransitionAnimator
+  m_EditorClassIdentifier: 
+  description: The default transition animator presents content from the bottom of
+    the screen, sliding it upwards. It dismisses content by performing the reverse
+    - animating onscreen content downwards.
+  duration: 0.4
+  curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 3.00052
+      outSlope: 3.00052
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 0.05463887
+      outSlope: 0.05463887
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  useScaledTime: 0

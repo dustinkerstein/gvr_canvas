@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a453f480823344fd1ac7bcf5125fa384, type: 3}
+  m_Name: WSSlideTransitionAnimator
+  m_EditorClassIdentifier: 
+  description: 'The slide transition animation presents content by sliding it in from
+    an off-screen location. It dismisses content by performing the reverse - sliding
+    it to an off-screen location.
+
+
+    In addition to the presented canvas controller, the presenting canvas controller
+    can also be animated to and from an off-screen location. This gives the appearance
+    of the content sliding out as the presented content slides in.
+
+
+    With the ''presentingCanvasParallaxScalar'' property, you can scale the amount
+    by which the presenter moves, creating parallax effects. A value of 1 will animate
+    fully to the off-screen location (no parallax), whilst 0.5 would animate halfway
+    to the off-screen location.A value of 0 has the same effect as disabling ''animatePresentingCanvas''.'
+  duration: 0.4
+  curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 3.00052
+      outSlope: 3.00052
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 0.05463887
+      outSlope: 0.05463887
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  useScaledTime: 0
+  presentedCanvasOffScreenLocation: 3
+  animatePresentingCanvas: 1
+  presentingCanvasOffScreenLocation: 1
+  presentingCanvasParallaxScalar: 1
